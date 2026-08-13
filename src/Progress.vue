@@ -39,13 +39,13 @@ import ProgressCard from './ProgressCard.vue'
 // ===================== BUSINESS LOGIC / DATA =====================
 // Data task Website — status dikontrol dari sini
 const websiteTasks = ref([
-  { label: 'Halaman Beranda', done: false },
-  { label: 'Halaman Tentang Kami', done: false },
-  { label: 'Halaman Blog', done: false },
-  { label: 'Halaman Detail Blog', done: false },
-  { label: 'Halaman Track Pengiriman', done: false },
+  { label: 'Halaman Beranda', done: true },
+  { label: 'Halaman Tentang Kami', done: true },
+  { label: 'Halaman Blog', done: true },
+  { label: 'Halaman Detail Blog', done: true },
+  { label: 'Halaman Track Pengiriman', done: true },
   { label: 'Integrasi Track Pengiriman', done: false },
-  { label: 'Optimisasi SEO', done: false },
+  { label: 'Optimisasi SEO', done: true },
   { label: 'Deployment', done: false },
 ])
 
