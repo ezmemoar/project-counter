@@ -48,7 +48,7 @@ const websiteTasks = ref([
   { label: 'Optimisasi SEO', done: true },
   { label: 'Penyesuaian konten', done: true },
   { label: 'Penyesuaian layout website', done: true },
-  { label: 'Deployment', done: false },
+  { label: 'Deployment', done: true },
 ])
 
 // Data task Aplikasi — status dikontrol dari sini
