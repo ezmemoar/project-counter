@@ -44,8 +44,10 @@ const websiteTasks = ref([
   { label: 'Halaman Blog', done: true },
   { label: 'Halaman Detail Blog', done: true },
   { label: 'Halaman Track Pengiriman', done: true },
+  { label: 'Penambahan section Antar Langsung', done: true },
   { label: 'Integrasi Track Pengiriman', done: false },
   { label: 'Optimisasi SEO', done: true },
+  { label: 'Penyesuaian konten', done: true },
   { label: 'Deployment', done: false },
 ])
 
