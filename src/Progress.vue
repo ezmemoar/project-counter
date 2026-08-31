@@ -64,6 +64,7 @@ const appTasks = ref([
   { label: 'Menu Kirim Paket', done: false },
   { label: 'Menu Check Progress Paket Mitra', done: false },
   { label: 'Menu Pesan', done: false },
+  { label: 'Integrasi Raja Ongkir', done: false },
   { label: 'Deployment', done: false },
 ])
 
