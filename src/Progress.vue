@@ -53,18 +53,18 @@ const websiteTasks = ref([
 
 // Data task Aplikasi — status dikontrol dari sini
 const appTasks = ref([
-  { label: 'Halaman Login', done: false },
+  { label: 'Halaman Login', done: true },
   { label: 'Halaman Register', done: false },
   { label: 'Halaman Lupa Password', done: false },
-  { label: 'Halaman Beranda', done: false },
-  { label: 'Halaman Akun', done: false },
-  { label: 'Halaman List History Pengiriman', done: false },
-  { label: 'Halaman Detail History', done: false },
+  { label: 'Halaman Beranda', done: true },
+  { label: 'Halaman Akun', done: true },
+  { label: 'Halaman List History Pengiriman', done: true },
+  { label: 'Halaman Detail History', done: true },
   { label: 'Fitur Cetak Resi', done: false },
-  { label: 'Menu Kirim Paket', done: false },
-  { label: 'Menu Check Progress Paket Mitra', done: false },
+  { label: 'Menu Kirim Paket', done: true },
+  { label: 'Menu Check Progress Paket Mitra', done: true },
   { label: 'Menu Pesan', done: false },
-  { label: 'Integrasi Raja Ongkir', done: false },
+  { label: 'Integrasi Raja Ongkir', done: true },
   { label: 'Deployment', done: false },
 ])
 
